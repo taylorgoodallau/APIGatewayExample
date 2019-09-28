@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrdersAPI", "OrdersAPI\Orde
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogAPI", "CatalogAPI\CatalogAPI.csproj", "{4FC01C9F-E781-4521-BC3A-DA583309B7D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GatewayAPI", "GatewayAPI\GatewayAPI.csproj", "{264D3106-15D4-4DDA-BEA6-3E0455D7FBF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{4FC01C9F-E781-4521-BC3A-DA583309B7D7}.Release|x64.Build.0 = Release|Any CPU
 		{4FC01C9F-E781-4521-BC3A-DA583309B7D7}.Release|x86.ActiveCfg = Release|Any CPU
 		{4FC01C9F-E781-4521-BC3A-DA583309B7D7}.Release|x86.Build.0 = Release|Any CPU
+		{264D3106-15D4-4DDA-BEA6-3E0455D7FBF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{264D3106-15D4-4DDA-BEA6-3E0455D7FBF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{264D3106-15D4-4DDA-BEA6-3E0455D7FBF3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{264D3106-15D4-4DDA-BEA6-3E0455D7FBF3}.Debug|x64.Build.0 = Debug|Any CPU
+		{264D3106-15D4-4DDA-BEA6-3E0455D7FBF3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{264D3106-15D4-4DDA-BEA6-3E0455D7FBF3}.Debug|x86.Build.0 = Debug|Any CPU
+		{264D3106-15D4-4DDA-BEA6-3E0455D7FBF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{264D3106-15D4-4DDA-BEA6-3E0455D7FBF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{264D3106-15D4-4DDA-BEA6-3E0455D7FBF3}.Release|x64.ActiveCfg = Release|Any CPU
+		{264D3106-15D4-4DDA-BEA6-3E0455D7FBF3}.Release|x64.Build.0 = Release|Any CPU
+		{264D3106-15D4-4DDA-BEA6-3E0455D7FBF3}.Release|x86.ActiveCfg = Release|Any CPU
+		{264D3106-15D4-4DDA-BEA6-3E0455D7FBF3}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
