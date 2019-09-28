@@ -1,11 +1,11 @@
-# Ocelot API Gateway Example 
+#Ocelot API Gateway Example ( Dotnet Core ) 
 
 Ocelot is a .NET API Gateway used to unify microservices. 
 
 this is a simple example showing how we can have 2 microservices ( CatalogAPI & OrdersAPI )
 that can be called via the APIGateway
 
-# Using the demo 
+##Using the demo 
 
 1 ) - Git clone this repositry 
 2 ) - Dotnet restore the GatewayAPI, CatalogAPI & OrdersAPI 
