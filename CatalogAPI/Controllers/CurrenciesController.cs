@@ -8,7 +8,7 @@ namespace CatalogAPI.Controllers
 {
     [Route("api/currencies")]
     [ApiController]
-    public class ValuesController : ControllerBase
+    public class CurrenciesController : ControllerBase
     {
         // GET api/currencies
         [HttpGet]
