@@ -1,0 +1,20 @@
+# Ocelot API Gateway Example 
+
+Ocelot is a .NET API Gateway used to unify microservices. 
+
+this is a simple example showing how we can have 2 microservices ( CatalogAPI & OrdersAPI )
+that can be called via the APIGateway
+
+# Using the demo 
+
+1 ) - Git clone this repositry 
+2 ) - Dotnet restore the GatewayAPI, CatalogAPI & OrdersAPI 
+2 ) - dotnet run CatalogAPI & OrdersAPI & GatewayAPI 
+
+the two available endpoints are 
+
+http://localhost:7000/orders-api/orders
+http://localhost:7000/catalog-api/currency
+
+The CatalogAPI runs on port 7001
+The OrdersAPI runs on port 7002.
