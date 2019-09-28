@@ -24,6 +24,19 @@
             "UpstreamPathTemplate": "/orders-api/{catchall}",
             "UpstreamHttpMethod": [ "Get" ]
        
+        },
+        {
+            "DownstreamPathTemplate": "/api/{catchall}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                    {
+                        "Host": "localhost",
+                        "Port": 7003
+                    }
+                ],
+            "UpstreamPathTemplate": "/payment-api/{catchall}",
+            "UpstreamHttpMethod": [ "Get" ]
+       
         }
     ],
     "GlobalConfiguration": {
