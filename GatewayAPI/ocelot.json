@@ -13,7 +13,7 @@
             "UpstreamHttpMethod": [ "Get" ]      
         },
         {
-            "DownstreamPathTemplate": "/api/orders",
+            "DownstreamPathTemplate": "/api/{catchall}",
             "DownstreamScheme": "http",
             "DownstreamHostAndPorts": [
                     {
@@ -21,7 +21,7 @@
                         "Port": 7001
                     }
                 ],
-            "UpstreamPathTemplate": "/orders-api/orders",
+            "UpstreamPathTemplate": "/orders-api/{catchall}",
             "UpstreamHttpMethod": [ "Get" ]
        
         }
